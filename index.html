@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="appContainer">
+        <img id="icon" src="#">
+        <div id="mainInfo">
+            <div id="location">Location</div>
+            <div id="tempContainer">
+                <div id="temperature"></div>
+                <div id="selectorContainer">
+                <div class="cSelector selected">°C</div>
+                <div>|</div>
+                <div class="fSelector">°F</div>
+            </div>
+            </div>
+
+        </div>
+        <div id="secondInfo">
+            <div id="dateTime">Date / Time</div>
+            <div id="description">Description</div>
+            <div id="lowHighContainer">
+                <p>High: </p>
+                <div id="tempHigh"></div></p>
+                <p>° / Low: </p>
+                <div id="tempLow"></div></p>
+                <p>°</p>
+            </div>
+        </div>
+        <div id="thirdInfo">
+            <div id="precipContainer">
+                <p>Precipitation: </p>
+                <div id="precipitation"></div>
+                <p>%</p>
+            </div>
+            <div id="humidityContainer">
+                <p>Humidity: </p>
+                <div id="humidity"></div>
+                <p>%</p>
+            </div>
+            <div id="windContainer">
+            <p>Wind: </p>
+                <div id="wind"></div>
+                <div id="windUnits"></div>
+        </div>
+        </div>
+    </div>
+    <div id="controls">
+        <input id="locationInput" placeholder="Location">
+        <button id="locationSubmit">Submit</button>
+    </div>
+    <div id="error">Location not found</div>
+</body>
+
+</html>

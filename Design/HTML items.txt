@@ -1,0 +1,12 @@
+Temperature Icon (Sun, Rain, Cloud, Storm)
+Weather Description
+
+<Celsius / Fahrenheit Button>
+Current Temperature
+Temperature Max (24hr)
+Temperature Min (24hr)
+
+Precipitation
+Humidity
+Wind
+

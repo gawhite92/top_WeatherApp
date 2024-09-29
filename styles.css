@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#appContainer {
+    display: flex;
+    height: 190px;
+    width: 750px;
+    border: solid black 1px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    gap: 40px;
+}
+
+#controls {
+    margin-left: 10px;
+    margin-top: 5px;
+    display: flex;
+}
+
+#locationInput {
+    font-size: 1.0em;
+}
+
+#locationSubmit {
+    height: 30px;
+    width: 70px;
+    border: solid black 1px;
+    font-size: 1.0em;
+}
+
+img {
+    height: 140px;
+    width: 140px;
+    align-self: center;
+}
+
+#tempContainer {
+    display: flex;
+    position: relative;
+    top: 5px;
+}
+
+#temperature {
+    font-size: 6em;
+    padding-right: 5px;
+}
+
+#mainInfo {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 4px;
+    width: 195px;
+    justify-content: flex-start;
+;}
+
+#secondInfo,
+#thirdInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-self: center;
+    position: relative;
+    top: 20px;
+}
+
+#location {
+    font-size: 2em;
+    overflow: visible;
+    text-wrap: nowrap;
+}
+
+#selectorContainer {
+    display: flex;
+    gap: 2px;
+    position: relative;
+    top: 15px;
+}
+
+.cSelector,
+.fSelector {
+    color:rgba(0, 0, 0, 0.363);
+    font-size: 1.2em;
+    cursor: pointer;
+    height: 23px;
+}
+
+#precipContainer,
+#humidityContainer,
+#windContainer{
+    display: flex;
+}
+
+.selected {
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+#error {
+    height: 66px;
+    width: 325px;
+    background-color: rgba(0, 0, 0, 0.76);
+    position: absolute;
+    top: 61px;
+    left: 215px;
+    font-size: 2em;
+    text-align: center;
+    align-content: center;
+    color: white;
+    visibility: hidden;
+}
+
+#lowHighContainer {
+    display: flex;
+}
+
+#tempLow,
+#tempHigh,
+#wind,
+#humidity,
+#precipitation {
+    margin-left: 3px;
+}
