@@ -1,7 +1,7 @@
 # top_weatherapp
 Weather app assignment for 'The Odin Project' using Javascript
 
-Live demo: https://gawhite92.github.io/top_weatherapp/
+Live demo: https://gawhite92.github.io/top_WeatherApp/
 
 Icons sourced from https://www.iconsdb.com/
 
